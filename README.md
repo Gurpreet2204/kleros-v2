@@ -88,7 +88,7 @@ $ git submodule update --init --recursive -j 4
 $ npm i -g hardhat-shorthand
 
 $ hardhat-completion install
-✔ Which Shell do you use ? · bash
+✔ Which Shell do you use? · bash
 ✔ We will install completion to ~/.bashrc, is it ok ? (y/N) · true
 
 $ exec bash
@@ -191,11 +191,11 @@ Just press `Ctrl + c` in each terminal.
 
 `yarn workspace @kleros/kleros-v2-subgraph stop-local-indexer`
 
-#### Restoring subgraph.yaml
+#### Restoring subgraph. yaml
 
 ##### From a backup file
 
-Every versions were saved as `subgraph.yaml.bak.<timestamp>`.
+Every version was saved as `subgraph.yaml.bak.<timestamp>`.
 
 ##### Based on the ArbitrumGoerli deployment artifacts
 
